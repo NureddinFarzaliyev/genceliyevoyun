@@ -1,0 +1,16 @@
+
+/* THIS SITE WAS DEVELOPED BY NUREDDIN FARZALIYEV */
+
+@media screen and (max-width: 480px){
+    .logo{
+        font-size: 40px;
+    }
+
+    #body{
+        height: 2700px;
+    }
+
+    .game{
+        margin-left: 15%;
+    }
+}

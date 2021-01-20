@@ -1,0 +1,105 @@
+
+/* THIS SITE WAS DEVELOPED BY NUREDDIN FARZALIYEV */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#body{
+    height: 1100px;
+    background: #3B1D71;
+    background: -moz-linear-gradient(left, #3B1D71 0%, #FFAE7B 100%);
+    background: -webkit-linear-gradient(left, #3B1D71 0%, #FFAE7B 100%);
+    background: linear-gradient(to bottom, #3B1D71 0%, #FFAE7B 100%);
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 3.4px;
+    word-spacing: 2px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.game{
+    margin-top: 60px;
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    margin-left: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 14px 1px #000000; 
+    box-shadow: 0px 0px 14px 1px #000000;
+}
+
+.gameimg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.game:hover{
+    transition-duration: .6s;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.gamename{
+    margin-top: 0px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.footer{
+    margin-top: -10px;
+}
+
+.credit{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+}
